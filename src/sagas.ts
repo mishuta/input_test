@@ -6,5 +6,5 @@ function* storeInputSaga(action: ReturnType<typeof storeInput>) {
 }
 
 export function* watchInput() {
-  yield takeLatest(storeInput.type, storeInputSaga);
+  // yield takeLatest(storeInput.type, storeInputSaga);
 }
